@@ -1,0 +1,14 @@
+{
+  "name": "marp-presentation",
+  "version": "1.0.0",
+  "description": "AI-based premium autobiography and personal branding service presentation",
+  "scripts": {
+    "build": "marp slide.md --html -o dist/index.html",
+    "build:pdf": "marp slide.md --pdf -o dist/slide.pdf",
+    "dev": "marp --watch --html slide.md -o dist/index.html",
+    "preview": "marp --preview slide.md"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}
